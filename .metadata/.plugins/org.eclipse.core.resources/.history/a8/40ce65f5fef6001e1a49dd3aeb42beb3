@@ -1,0 +1,19 @@
+package PracticeJava;
+
+import java.util.Iterator;
+
+public class script1 {
+	public static void main(String[] args) {
+		String s = "Selenium";
+		System.out.println(s.repeat(2));
+		
+		int length = s.length();
+		String reverseString = null;
+		for(int i=length; i>=0; i--) {
+			reverseString.concat(s.charAt(i)+"");
+		}
+
+		System.out.println(reverseString);
+	}
+	
+}

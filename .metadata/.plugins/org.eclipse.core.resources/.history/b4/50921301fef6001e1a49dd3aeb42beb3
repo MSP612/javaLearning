@@ -1,0 +1,7 @@
+
+public class script1 {
+	public static void main(String[] args) {
+		String s = "Selenium";
+		System.out.println(s.repeat(2));
+	}
+}

@@ -1,0 +1,40 @@
+package eCommerce;
+
+public class Menu {
+	
+	public static void menuList() {
+		
+		System.out.println("1. Sign Up\r\n"
+				+ "2. Sign In / Sign Out \r\n"
+				+ "3. Product Catalog\r\n"
+				+ "4. My Orders\r\n"
+				+ "5. Settings\r\n"
+				+ "6. Customer List\r\n");
+	}
+	
+	public static void menuSelected(int num) {
+		switch(num){
+			case 1:{
+				
+			}
+			case 2:{
+				
+			}
+			case 3:{
+				
+			}
+			case 4:{
+				
+			}
+			case 5:{
+				
+			}
+			case 6:{
+				
+			}
+			
+		}
+			
+				
+	}
+}

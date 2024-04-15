@@ -1,0 +1,23 @@
+package eCommerce;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		boolean flag = true;
+		
+		while(flag) {
+			Menu.menuList();
+			System.out.println("Enter your number to select menu item. Type exit to quit.");
+			String input = sc.next();
+			flag = Menu.menuSelected(input);
+		}
+		
+		sc.close();
+	}
+
+}
